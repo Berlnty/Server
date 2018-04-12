@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>page</title>
+
+        <link href="/style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div id="create_room">
+            <form  method="post" id="creation_form" action="/room">
+
+                <input id="room_name" type="text" placeholder="room name" name="room_name"/>
+                <button id="create" type="submit">create room</button>
+            </form>
+            <form  method="post"  action="/login">
+                <input id="user_id" type="number" placeholder="user_id" name="user_id"/>
+                <input id="type" type="number" placeholder="type" name="type"/>
+                <input name="user_name" placeholder="name">
+                <button type="submit">log in</button>
+            </form>
+        </div>
+        <div id="output">
+
+        </div>
+
+    </body>
+</html>
